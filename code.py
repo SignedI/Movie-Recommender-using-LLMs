@@ -87,7 +87,7 @@ def recommend_movie(user_query):
 
 def user_input_query():
     user_query = input(f"What type of movies are you interested in? ")
-    recommendation = recommend_and_rate_movie(user_query)
+    recommendation = recommend_movie(user_query)
     print("Recommendation:", recommendation)
     
     movie_title = input("Which movie did you pick: ")
